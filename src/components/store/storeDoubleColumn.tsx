@@ -1,4 +1,10 @@
-export default function StoreNavigationDoubleColumn() {
+import React from "react";
+import PropTypes from 'prop-types';
+
+const StoreDoubleColumn = ({ title }) => {
+  // Your existing component logic
+  console.log(`Title: ${title}`);
+
   return (
     <>
     <div className="row mt-5">
@@ -135,3 +141,9 @@ export default function StoreNavigationDoubleColumn() {
     </>
   );
 };
+
+StoreDoubleColumn.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
+export default StoreDoubleColumn;

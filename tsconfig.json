@@ -1,5 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "include": [
+    "./src/types.d.ts"
+  ],
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",

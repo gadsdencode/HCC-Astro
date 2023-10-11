@@ -1,3 +1,4 @@
+import React from 'react';
 import data from '../../public/data.json';
 import CardCategory from './products/cardCategory';
 
@@ -177,7 +178,7 @@ const ComplexNavbar = () => {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
               </svg>
             </span>
-            <input type="text" className="form-control max-width-200" placeholder="Search" onFocus="focused(this)" onFocusout="defocused(this)" />
+            <input type="text" className="form-control max-width-200" placeholder="Search" onFocus={() => console.log("focused")} onBlur={() => console.log("defocused")} />
           </div>
         </div>
       </div>

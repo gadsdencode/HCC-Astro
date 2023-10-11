@@ -1,3 +1,4 @@
+import React from 'react';
 import data from '../../public/data.json';
 import StoreDoubleColumn from '../components/store/storeDoubleColumn';
 
@@ -20,7 +21,7 @@ export default function ComplexFooter() {
                 document.write(new Date().getFullYear())
               </script>
               &nbsp;Astro Ecommerce by &nbsp;
-              <a href="https://www.creative-tim.com" className="text-dark" target="_blank">Creative Tim</a>.
+              <a href="https://www.overture-systems.com" className="text-dark" target="_blank" rel="noopener">OSS</a>.
             </div>
           </div>
         </div>

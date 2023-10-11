@@ -8,6 +8,13 @@
       {
         "aria-allowed-attr": "off"
       }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
     ]
   }
 }

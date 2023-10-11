@@ -1,9 +1,12 @@
+import React from "react";
+
 interface Props {
   thumb_src: string;
   title: string;
   collection: string;
   classList: string;
   cta: string;
+  
 }
 
 
@@ -19,7 +22,7 @@ export default function CardProduct({
 
   return (
     <>
-      <a href="#">
+      <a href="#" title="top">
         <div className={`card card-background align-items-start mb-4 mb-lg-0 ${classList}`}>
           <div className="full-background" style={{backgroundImage: `url(${`${import.meta.env.BASE_URL}${thumb_src}`})`, backgroundSize: 'cover'}}></div>
           <div className={`card-body ${classBody}`}>
