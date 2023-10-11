@@ -7,15 +7,15 @@ export default function Footer() {
             <div className="copyright text-center text-sm text-muted text-lg-start">
               Copyright ©{" "}
               <script>document.write(new Date().getFullYear())</script>
-              &nbsp;Astro Ecommerce by 
+              &nbsp;Heaters & Controls 
               <a
-                href="https://www.creative-tim.com"
+                href="https://www.overture-systems.com"
                 className="text-dark ms-1"
                 target="_blank"
+                rel="noopener"
               >
-                Creative Tim
+                @Gadsdencode
               </a>
-              .
             </div>
           </div>
           <div className="col-lg-6">
@@ -25,35 +25,38 @@ export default function Footer() {
                   href="https://www.creative-tim.com"
                   className="nav-link text-sm text-muted"
                   target="_blank"
+                  rel="noopener"
                 >
-                  Creative Tim
+                  OSS
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/presentation"
+                  href="https://www.overture-systems.com"
                   className="nav-link text-sm text-muted"
                   target="_blank"
+                  rel="noopener"
                 >
                   About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/blog"
+                  href="https://overture-systems.com/about-us-2/"
                   className="nav-link text-sm text-muted"
                   target="_blank"
+                  rel="noopener"
                 >
-                  Blog
+                  TBD
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/license"
+                  href="/"
                   className="nav-link text-sm pe-0 text-muted"
                   target="_blank"
                 >
-                  License
+                  TBD
                 </a>
               </li>
             </ul>
